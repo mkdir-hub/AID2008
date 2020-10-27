@@ -1,0 +1,32 @@
+
+
+
+
+
+2.http协议格式
+    请求格式：请求行 请求头 空行 请求体
+    请求行： GET / HTTP/1.1
+    响应格式：响应行 响应头 空行 响应体
+    响应行：HTTP/1.1 200 OK
+    相应体：具体数据信息
+
+
+
+.gitignore
+git reset --hard commit_id 退回指定节点
+
+git tag tag_name [commit_id] -m message创建标签
+git reset tag_name 去往标签
+
+将暂存区或者某个commit点文件恢复到工作区
+git checkout [commit] -- [file]
+
+git stash save "信息"保存工作区内容
+git stash apply stash@{}应用工作区
+
+git branch branch_name创建分支
+git checkout branch_name 切换分支
+git merge branch 合并分支
+
+
+修改
